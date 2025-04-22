@@ -27,10 +27,10 @@
                         <td><?php echo htmlspecialchars($sexo['id']); ?></td>
                         <td><?php echo htmlspecialchars($sexo['nombre']); ?></td>
                         <td>
-    <a href="/eysphp/public/sexo/edit?id=<?php echo htmlspecialchars($sexo['id']); ?>">
+    <a href="/meta6bphp/public/sexo/edit?id=<?php echo htmlspecialchars($sexo['id']); ?>">
         <button>Editar</button>
     </a>
-    <a href="/eysphp/public/sexo/eliminar?id=<?php echo htmlspecialchars($sexo['id']); ?>" 
+    <a href="/meta6bphp/public/sexo/eliminar?id=<?php echo htmlspecialchars($sexo['id']); ?>" 
        onclick="return confirm('¿Estás seguro de eliminar este registro?');">
         <button>Eliminar</button>
     </a>
@@ -46,6 +46,6 @@
     </table>
 </div>
 
-<script src="/eysphp/public/js/script.js"></script>
+<script src="/meta6bphp/public/js/script.js"></script>
 </body>
 </html>
